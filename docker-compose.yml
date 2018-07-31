@@ -1,0 +1,8 @@
+version: "3"
+services:
+  sortcsv:
+    build: .
+    image: cambia_homework:latest
+    container_name: cambia-homework
+    volumes:
+      - ./csv_files:/app/csv_files
