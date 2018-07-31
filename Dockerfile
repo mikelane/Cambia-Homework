@@ -6,6 +6,7 @@ RUN addgroup -S -g 1001 app \
     && adduser -S -D -h /app -u 1001 -G app app
 
 ENV PYTHONUNBUFFERED 1
+ENV LOG_LEVEL DEBUG
 
 RUN mkdir -p /app/csv_files
 WORKDIR /app
