@@ -37,7 +37,7 @@ This is a simple script that opens a csv file, reads in the first row, sorts tha
     ```
     **Note:** If you don't supply CLI arguments, the script will prompt you for the input and output filenames.
 
-###Python
+### Python
 1. Ensure you have python 3.6+ installed on your machine.
 2. Install and update `pip` and `pipenv`:
     ```bash
