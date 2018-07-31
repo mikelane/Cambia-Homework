@@ -32,7 +32,7 @@ def test_write_row_str_to_file():
 
 
 def test_sort_csv_file():
-    sort_csv.sort_csv_file(infile='csv_files/test1.csv', outfile='csv_files/test_out1.csv')
+    sort_csv.sort_csv_file(infile='csv_files/input.csv', outfile='csv_files/output.csv')
     with open(file='csv_files/test_out1.csv', mode='r') as f:
         assert f.read().strip() == 'Stockholm,Oslo,Copenhagen'
     os.remove('csv_files/test_out1.csv')
